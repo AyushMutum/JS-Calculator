@@ -13,6 +13,10 @@ function calculate(){
  
 }
 
+function clr(){
+    document.getElementById('inputarea').value = '' 
+}
+
 const checkbox = document.getElementById("checkbox")
 checkbox.addEventListener("change", () => {
   document.body.classList.toggle("dark")
